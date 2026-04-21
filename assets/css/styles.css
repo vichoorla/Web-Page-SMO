@@ -33,11 +33,11 @@
     z-index: 2;
     
 }
-/*
+
 .text-primary {
-    color: #120fca !important;
+    color: #0905e7 !important;
 }
-*/
+
 
 /* Estilo de las letras orlandini motorsport sobre las principales en el hero */
 .hero-label {
@@ -70,6 +70,8 @@
     background-color: #c0c3c6; /* Color de fondo personalizado, puedes cambiarlo */
 }
 
+
 .footer {
-    background-color: #3b82f6; /* Color de fondo para el pie de página */
+    background-color: #2f3031;
+    color: rgb(255, 255, 255);
 }
