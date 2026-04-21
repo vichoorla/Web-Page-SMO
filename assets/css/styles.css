@@ -1,29 +1,57 @@
 /* Estilos personalizados para la página web SMO */
 
-
+/* Navbar Styles */
 .navbar {
     background-color: #3b82f6;
     /* Color de fondo para la barra de navegación */
 }
 
+/* Hero Styles */
 .hero-overlay {
     background: linear-gradient(rgba(0, 0, 0, 0.542), rgba(0, 0, 0, 0.63)),
                 url('../img/hero.jpg') no-repeat center center;
     background-size: cover;
     z-index: 1;
 }
-
+/* Asegura que el contenido del hero esté por encima de la superposición */
 .hero-content {
     z-index: 2;
+    
 }
+/*
+.text-primary {
+    color: #120fca !important;
+}
+*/
 
+/* Estilo de las letras orlandini motorsport sobre las principales en el hero */
 .hero-label {
     letter-spacing: 4px;
     font-size: 20px;
-    color: #3b82f6;
+    color: #0f57ca;
 }
 
 .hero-arrow {
     z-index: 2;
+}
+
+/* Estilo para el título del hero (cambia solo las blancas)*/
+.hero-title {
+    font-size: 70px;
+
+}
+
+/* Services Styles */
+.section-title {
+    font-size: 70px;
+}
+
+.section-text {
+    font-size: 20px;
+}
+
+/* Estilo para el formulario de contacto */
+.contact-form {
+    background-color: #c0c3c6; /* Color de fondo personalizado, puedes cambiarlo */
 }
 
