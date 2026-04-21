@@ -1,5 +1,20 @@
 /* Estilos personalizados para la página web SMO */
 
+
+/* Esto anula el anillo de luz de Bootstrap y pone tu borde */
+.btn:focus, 
+.form-control:focus {
+    box-shadow: none;
+}
+
+:focus-visible {
+    outline: 2px solid #FACC15 !important;
+    outline-offset: 2px; /* Opcional: da un poco de aire entre el elemento y el borde */
+}
+
+
+
+
 /* Navbar Styles */
 .navbar {
     background-color: #3b82f6;
@@ -55,3 +70,6 @@
     background-color: #c0c3c6; /* Color de fondo personalizado, puedes cambiarlo */
 }
 
+.footer {
+    background-color: #3b82f6; /* Color de fondo para el pie de página */
+}
